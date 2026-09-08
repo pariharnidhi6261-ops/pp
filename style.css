@@ -1,0 +1,115 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+ }
+
+ html,
+ body {
+    height: 100%;
+    width: 100%;
+ }
+
+ body {
+    background-color: black;
+ }
+
+ nav {
+    height: 70px;
+    display: flex;
+    padding: 0 25px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2x solid red;
+ }
+
+ nav .logo {
+    font-size: 25px;
+    margin-left: 30px;
+ }
+
+ .nav-links {
+    gap: 25px;
+    display: flex;
+ }
+
+ .nav-links a {
+    text-decoration: none;
+ }
+
+ .social-links {
+    display: flex;
+    gap: 25px;
+ }
+
+ .social-links a {
+    text-decoration: none;
+ }
+
+ .main {
+    display: flex;
+ }
+
+ .main .left {
+    height: 600%;
+    width: 50%;
+    padding: 25px;
+    margin-left: 100px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 50px;
+
+ }
+
+ .main .left h3 {
+    font-size: 20px;
+    padding-bottom: 50px;
+ }
+
+ .main .left h1 {
+    font-size: 70px;
+    width: 300px;
+ }
+
+
+ main .left span {
+    color: orangered;
+    font-size: italic;
+ }
+
+ main .left p {
+    width: 80px;
+    font-size: 20px;
+ }
+
+ .main .left .but {
+    display: flex;
+    gap: 30px;
+ }
+
+ .main .left .but .Explor {
+    background-color: orangered;
+ }
+
+ .main .rating {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+ }
+
+ .main .right {
+   height: 600%;
+   width: 50%;
+   border: 2px solid red;
+   margin: 150px 100px;
+ }
+
+ .main .right .image {
+   height: 300px;
+   width: 300px;
+   border: 2px solid green;
+ }
