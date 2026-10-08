@@ -1,5 +1,5 @@
  * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     color: white;
@@ -103,13 +103,15 @@
 
  .main .right {
    height: 600%;
-   width: 50%;
-   border: 2px solid red;
-   margin: 150px 100px;
+   width: 20%;
+   
+   margin: 50px ;
  }
 
  .main .right .image {
-   height: 300px;
-   width: 300px;
-   border: 2px solid green;
+   height: 500px;
+   width: 400px;
+   
+   background-image: url("https://i.pinimg.com/736x/5e/bf/4b/5ebf4b475ffeb77811afe087af4d625d.jpg");
+   background-size: cover;
  }
